@@ -24,7 +24,7 @@ NOTE:
   - N X 16 = No of pins will be avaiable for servo operations 
   - pin number will alwasy start from 1 to NX16 which is supplied for the servo 
 - Secound N sequence of board will assigne to the Light type if number is passed in initPca9685Boards method  
-  - N X 16 = No of pins will be avaiable for servo operations 
+  - N X 16 = No of pins will be avaiable for light operations 
   - pin number will always start from (Servo N pins)+1 to NX16 which is supplied for the lights
 ```
 

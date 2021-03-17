@@ -9,8 +9,23 @@
 ## About the Lib 
 ```
 
+Pca9685-Servo-Led-Lib is for supporing multiple Pca9685 boards together 
+in chain without complexcity of the programming 
 
+max we can connect 64 Pca9685 together in chain which will give extra 1024 pins for operations 
+this api support a simple interface where we can controll 1-1024 pins by its sequence number 
+respected to their sequence in the chain 
 
+pin number will start from 1 to (number of board X 16 pin per board)
+
+NOTE:
+- Order of Pca9685 board address wise must be in sequence otherwise it will not work in expected manner 
+- First N sequence of board will assigne to the Servo type if number is passed in initPca9685Boards method 
+  - N X 16 = No of pins will be avaiable for servo operations 
+  - pin number will alwasy start from 1 to NX16 which is supplied for the servo 
+- Secound N sequence of board will assigne to the Light type if number is passed in initPca9685Boards method  
+  - N X 16 = No of pins will be avaiable for servo operations 
+  - pin number will always start from (Servo N pins)+1 to NX16 which is supplied for the lights
 ```
 
 

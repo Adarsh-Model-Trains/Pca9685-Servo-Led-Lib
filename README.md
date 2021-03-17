@@ -29,8 +29,8 @@ NOTE:
 ```
 
 
-# YOUTBUT LINK
-[![Audi R8](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=KOxbO0EI4MA "Audi R8")
+# YOUTUBE LINK
+[![Pca9685-Servo-Led-Lib](http://img.youtube.com/vi/OQEmncnN4yU/0.jpg)](https://www.youtube.com/watch?v=OQEmncnN4yU "PCF9685")
 
 ## Pca9685 board addressing configuration 
 ![img](/image/pca9685-soldering-address-chart.png)

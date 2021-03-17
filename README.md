@@ -29,11 +29,8 @@ NOTE:
 ```
 
 
- <iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+# YOUTBUT LINK
+[![Audi R8](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=KOxbO0EI4MA "Audi R8")
 
 ## Pca9685 board addressing configuration 
 ![img](/image/pca9685-soldering-address-chart.png)

@@ -14,27 +14,9 @@
 ```
 
 
-## Connection details 
-```
-- sda and scl from arduino to 1st pca9685 
-- external power supply +5v and gnd to the breadboard 
-- from breadboard external power supply +5v and gnd to the first pca9685  in chain to vcc and gnd 
-  and +5v and gnd to the 1st pca9685 sidew power inputs 
-- gnd from the external power supply to the arduino gnd pin for common gnd setup 
+## Pca9685 board addressing configuration 
+![img](/image/pca9685-soldering-address-chart.png)
 
-# For Led Connection with pca9685
-connect the jumper from yellow which is pwm pin to the breadboard 
-then connect the resisot to that and followed by led long leg 
-then connect the short leg of the led tot he common gnd in the breadboard 
-repeate this for the other led in boards in chain 
-
-# For Servo Connection with pca9685
-connect the servo to the pca9685 but ensure below 
-black wire to the black pin of the pca9685
-red wire to the red pin of the pca9685
-orange/yellow wire to the yellow pin of the pca9685
-
-```
 
 
 ## steps for using lib
@@ -196,6 +178,28 @@ void loop() {
 	pca9685Board.displayPinState();
   ..........
 }
+```
+
+## Connection details 
+```
+- sda and scl from arduino to 1st pca9685 
+- external power supply +5v and gnd to the breadboard 
+- from breadboard external power supply +5v and gnd to the first pca9685  in chain to vcc and gnd 
+  and +5v and gnd to the 1st pca9685 sidew power inputs 
+- gnd from the external power supply to the arduino gnd pin for common gnd setup 
+
+# For Led Connection with pca9685
+connect the jumper from yellow which is pwm pin to the breadboard 
+then connect the resisot to that and followed by led long leg 
+then connect the short leg of the led tot he common gnd in the breadboard 
+repeate this for the other led in boards in chain 
+
+# For Servo Connection with pca9685
+connect the servo to the pca9685 but ensure below 
+black wire to the black pin of the pca9685
+red wire to the red pin of the pca9685
+orange/yellow wire to the yellow pin of the pca9685
+
 ```
 
 

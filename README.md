@@ -200,6 +200,7 @@ void loop() {
 ```
 
 ## Connection details 
+![img](/image/connections.JPG)
 ```
 - sda and scl from arduino to 1st pca9685 
 - external power supply +5v and gnd to the breadboard 

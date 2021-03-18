@@ -4,12 +4,6 @@
    Support adarshkumarsingh83@gmail.com
 */
 
-/*
-   Adarsh Model Trains
-   Developed by Adarsh kumar
-   Support adarshkumarsingh83@gmail.com
-*/
-
 #include "Pca9685Board.h"
 #define NO_OF_SERVO_BOARDS 2
 #define NO_OF_LIGHT_BOARDS 2

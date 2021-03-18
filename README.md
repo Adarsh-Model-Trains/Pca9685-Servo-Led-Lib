@@ -230,9 +230,8 @@ orange/yellow wire to the yellow pin of the pca9685
 ```
 
 #include "Pca9685Board.h"
-
-#define NO_OF_SERVO_BOARDS 1
-#define NO_OF_LIGHT_BOARDS 1
+#define NO_OF_SERVO_BOARDS 2
+#define NO_OF_LIGHT_BOARDS 2
 
 int MAX_PINS = 0;
 
@@ -249,19 +248,20 @@ void setup() {
 
 void loop() {
 
-  for (int i = 1; i <= 16; i++) {
+  for (int i = 1; i <= 32; i++) {
     int pinNo = i;
     pca9685Board.throwSwitch(pinNo);
-    pca9685Board.switchOn(pinNo + 16);
+    pca9685Board.switchOn(pinNo + 32);
   }
   pca9685Board.displayPinState();
   delay(1000);
-  for (int i = 1; i <= 16; i++) {
+  for (int i = 1; i <= 32; i++) {
     int pinNo = i;
     pca9685Board.closeSwitch(pinNo);
-    pca9685Board.switchOff(pinNo + 16);
+    pca9685Board.switchOff(pinNo + 32);
   }
   pca9685Board.displayPinState();
   delay(1000);
 }
+
 ```

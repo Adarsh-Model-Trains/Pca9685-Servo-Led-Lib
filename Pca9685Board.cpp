@@ -36,14 +36,14 @@ void Pca9685Board::initPca9685Boards(int totalTurnoutBoard, int totalLightBoard)
   }
   _pca9685Boards = new Pca9685[_totalPca9685Boards];
   int i = 0;
-  if (_totalPca9685Boards > 0 && _totalTurnoutBoard > 0) {
+  if (_totalPca9685Boards > 0 && _totalTurnoutBoard != 0) {
     for (i = 0; i <  _totalTurnoutBoard; i++) {
       _pca9685Boards[i].setBoardAddress(_boardAddress[i]);
       _pca9685Boards[i].setPwmFrequency(_pwmFrequencyTurnout);
       _pca9685Boards[i].initPca9685('T');
     }
   }
-  if (_totalPca9685Boards > 0 && _totalLightBoard > 0) {
+  if (_totalPca9685Boards > 0 && _totalLightBoard != 0) {
     for ( ; i < _totalPca9685Boards; i++) {
       _pca9685Boards[i].setBoardAddress(_boardAddress[i]);
       _pca9685Boards[i].setPwmFrequency(_pwmFrequencyLight);

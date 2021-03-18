@@ -29,11 +29,13 @@ NOTE:
 ```
 
 
-# YOUTUBE LINK
-[![PCA9685-PWM-BOARD](http://img.youtube.com/vi/-SGKnX_kVgc/0.jpg)](https://www.youtube.com/watch?v=-SGKnX_kVgc "PCA9685-PWM-BOARD")
 
 
 ## Pca9685 board addressing configuration 
+
+### YOUTUBE LINK BOARD DETAILS 
+[![PCA9685-PWM-BOARD](http://img.youtube.com/vi/-SGKnX_kVgc/0.jpg)](https://www.youtube.com/watch?v=-SGKnX_kVgc "PCA9685-PWM-BOARD")
+
 ![img](/image/pca9685-soldering-address-chart.png)
 
 

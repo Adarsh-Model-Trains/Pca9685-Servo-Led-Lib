@@ -93,7 +93,7 @@ void setup() {
 
 ## define the right and left max position for the servo switch moter in setup
 * WE HAVE TO DO THIS FOR ALL THE  SERVVO TRUNOUT CONFIGURED 
-* USE CALIBRATION SKETCH FOR THIS 
+* USE CALIBRATION SKETCH FOR KNOWING THE VALUE OF OPEN RANGE AND CLOSE RANGE
 ```
 void setup() {
   

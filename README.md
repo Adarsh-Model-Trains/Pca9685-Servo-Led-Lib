@@ -36,6 +36,9 @@ NOTE:
 ### YOUTUBE LINK BOARD DETAILS 
 [![PCA9685-PWM-BOARD](http://img.youtube.com/vi/-SGKnX_kVgc/0.jpg)](https://www.youtube.com/watch?v=-SGKnX_kVgc "PCA9685-PWM-BOARD")
 
+### YOUTUBE LINK SERVO CALIBRATION FOR OPEN AND THROW POSITION DETAILS 
+[![SERVO-CALIBRATION-FOR-TURNOUT-PCA9685-PWM-BOARD](http://img.youtube.com/vi/DAPnm3rTAaE/0.jpg)](https://www.youtube.com/watch?v=DAPnm3rTAaE "SERVO-CALIBRATION-FOR-TURNOUT-PCA9685-PWM-BOARD")
+
 ![img](/image/pca9685-soldering-address-chart.png)
 
 

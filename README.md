@@ -53,6 +53,9 @@ NOTE:
 [![PCA9685-PWM-BOARD](http://img.youtube.com/vi/sMH5bc52cgc/0.jpg)](https://www.youtube.com/watch?v=sMH5bc52cgc "PCA9685-PWM-BOARD")
 
 
+### YOUTUBE LINK LIBRARY DETAILS AND DEMO EXAMPLES PART 3
+[![PCA9685-PWM-BOARD](http://img.youtube.com/vi/iYttZWX14x4/0.jpg)](https://www.youtube.com/watch?v=iYttZWX14x4 "PCA9685-PWM-BOARD")
+
 ## include the header file
 ```
 #include "Pca9685Board.h"

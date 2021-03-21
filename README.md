@@ -45,6 +45,10 @@ NOTE:
 
 ## steps for using lib
 
+### YOUTUBE LINK LIBRARY DETAILS AND DEMO EXAMPLES PART 1
+[![PCA9685-PWM-BOARD](http://img.youtube.com/vi/IK3555VY1DA/0.jpg)](https://www.youtube.com/watch?v=IK3555VY1DA "PCA9685-PWM-BOARD")
+
+
 ## include the header file
 ```
 #include "Pca9685Board.h"
@@ -233,8 +237,8 @@ orange/yellow wire to the yellow pin of the pca9685
 * led is on pca9685 2nd board pin 31 
 
 ```
-
 #include "Pca9685Board.h"
+
 #define NO_OF_SERVO_BOARDS 2
 #define NO_OF_LIGHT_BOARDS 2
 
